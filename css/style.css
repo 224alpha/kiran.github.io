@@ -15,6 +15,28 @@ body {
 ::selection {
   background: #000;
   color: #fff; }
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, #85c0b2),
+									   color-stop(0.72, #3e8373),
+									   color-stop(0.86, #207561));
+}
+
 
 a {
   -webkit-transition: .3s all ease;
@@ -196,6 +218,13 @@ body:after {
 @media (max-width: 991.98px) {
   .display-1, .display-3 {
     font-size: 3rem; } }
+
+.technology-wrapper{
+  margin-bottom: 80px;
+}
+@media (max-width: 991.98px) {
+  .technology-wrapper{
+    margin-bottom: 0px; } }
 
 .play-single-big {
   width: 90px;
