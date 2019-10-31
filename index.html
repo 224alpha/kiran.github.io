@@ -40,13 +40,13 @@
       <div class="site-mobile-menu-body"></div>
     </div>
    
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target">
 
       <div class="container-fluid">
         <div class="row align-items-center justify-content-center">
           
           <div class="">
-            <nav class="site-navigation position-relative text-right" role="navigation">
+            <nav class="site-navigation position-relative text-right">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#services-section" class="nav-link">Services</a></li>
@@ -62,7 +62,7 @@
 
           <div class="text-left">
 
-            <nav class="site-navigation position-relative" role="navigation">
+            <nav class="site-navigation position-relative">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#technology-section" class="nav-link">Technologies</a></li>
                 <li><a href="#clients-section" class="nav-link">Worked with</a></li>
@@ -91,8 +91,10 @@
               <div class="col-lg-6">
                 <h1 class="text-black">I'm Kiran Kumar Das</h1>
                 <p class="lead">I'm a Full-Stack Web Developer Based on India</p>
-                <p><a href="#portfolio-section" class="btn smoothscroll btn-primary">Portfolio</a></p>
-
+                <div class="btn-side-by-side">
+                  <p><a href="#services-section" class="btn smoothscroll btn-primary">Services</a></p>
+                  <p><a href="resume_kiran.pdf" class="btn smoothscroll btn-primary" download><span class="icon-download"></span> Resume</a></p>
+                </div>
               </div>
             </div>
           </div>
@@ -463,8 +465,29 @@
       </div>
     </footer>
 
-  </div> <!-- .site-wrap -->
+    <!--side social bar-->
+    <!--<div class="side-social-bar">
+      <div class="social-item github">
+        <a href="#"><p>Github <span class="icon-github-alt"></span></p></a>
+      </div>
+      <div class="social-item linkedin">
+        <a href="#"><p>Linkedin <span class="icon-linkedin"></span></p></a>
+      </div>
+      <div class="social-item linkedin">
+        <a href="#"><p>Gmail <span class="icon-mail_outline"></span></p></a>
+      </div>
+      <div class="social-item facebook">
+        <a href="#"><p>Facebook <span class="icon-facebook-f"></span></p></a>
+      </div>
+    </div>-->
 
+    <div class="social-icon-bar">
+      <a href="https://github.com/kiranonline" target="_blank" class="github"><span class="icon-github-alt"></span></a>
+      <a href="https://www.linkedin.com/in/kiran-kumar-das-90422914a/" target="_blank" class="linkedin"><span class="icon-linkedin"></span></a>
+      <a href="mailto:kirankumardas18091997@gmail.com?Subject=I%20have%20a%20query" target="_blank" class="google"><span class="icon-mail_outline"></span></a>
+      <a href="https://www.facebook.com/kiran.das.3994" target="_blank" class="facebook"><span class="icon-facebook-f"></span></a>
+    </div>
+  </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -482,7 +505,7 @@
   <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    var s1 = document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s1.async=true;
     s1.src='https://embed.tawk.to/5db84b26e4c2fa4b6bd8fb50/default';
     s1.charset='UTF-8';

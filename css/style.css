@@ -1,6 +1,6 @@
 /* Base */
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 body {
   line-height: 1.7;
@@ -134,6 +134,10 @@ body:after {
   @media (min-width: 768px) {
     .site-section-heading {
       font-size: 3rem; } }
+
+.btn-side-by-side p {
+  display: inline-block;
+}
 
 .site-footer {
   padding: 4em 0;
@@ -894,3 +898,28 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+
+   
+.social-icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 100000;
+}
+.social-icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  background: #207561;
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+}
+.social-icon-bar a:hover {
+  background-color: #0d4e3f;
+}
